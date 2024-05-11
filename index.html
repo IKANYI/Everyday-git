@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Everyday Git</title>
+</head>
+<body>
+  <div>
+    <p>
+      <h3>
+        What is Git
+      </h3>
+      <p>
+        Git is a version control system. A version control system allows you to manage your projects and helps in tracking  changes and updates to your project files and repositories on GitHub and other repositories.
+      </p>
+      <p>
+        There exist multiple version control systems such as Mercurial, Azure DevOps server, Aws codecommit, and SVN. 
+      </p>
+      <p>
+        In this blog we are going to delve into Git and GitHub.
+      </p>
+    </p>
+  </div>
+  <div>
+    <h3>
+      Installing Git
+    </h3>
+    <p>
+      To to check whether Git is installed you need to run the following command in your command prompt: "git --version" if git is installed the cmd will show the version of Git installed in your system.
+    </p>
+    <img src="git-ver.png" alt="checking git version">
+    <p>
+      A sceenshort of cmd showing the version of Git installed in my system.
+    </p>
+    <p>
+      If Git is not installed you will get an error in cmd stating that git is not recognized as internal or external command. Then you will have to install Git.
+    </p>
+    <p>
+      To install Git click here: <a href="https://git-scm.com/downloads" target="_blank">Downlod Git</a> When the download is done, click on install and follow the instructin provided.
+    </p>
+  </div>
+  <div>
+    <h3>
+      Configuring Git
+    </h3>
+    <p>
+      To configure Git you need to add your usernane and email address of your GitHub account.
+      Here is how to configure. In cmd run this commands:
+      <ol>
+        <li>
+          git config --global user.name "dayzero"
+        </li>
+        <li>
+          git config --global user.email "paul@teach2give.com"
+        </li>
+      </ol> 
+      <img src="git-conf.png" alt = "Configuring Git in cmd">
+      <p>
+        A sreenshot of cmd with configuration commands.
+      </p>
+    </p>
+  </div>
+  <div>
+    <h3>
+      Initializing a Git repository
+    </h3>
+    <p>
+      A Git repository is the .git/ folder inside a project. This repository tracks all changes made to files in your project, building a history over time.
+    </p>
+    <p>
+      To initialize a Git repository, open the foder where your project is located in the cmd and run this commmad; "git init"
+    </p>
+    <img src="git-init.png" alt = "Git initialization">
+    <p>
+      A screenshot of cmd showing how to initialize a repository
+    </p>
+  </div>
+  <div>
+    <h3>
+      Adding files to the staging area
+    </h3>
+    <p>
+      The files in yor folder you inialized will appear as untracked files. To know files in your repository are tracked or untacked run this command:"git status"
+    </p>
+    <img src="git-stat.png" alt="Checking Git Status" />
+    <p>
+      To add a file to the staging area you need to run this command: "git add " . If you want to add all the files include a fullstop "." after add, or the name of file you want to add.
+    </p>
+    <img src="git-add.png" alt="A sceenshort of add command">
+    <p>
+      a A screenshots of the add command
+    </p>
+  </div>
+</body>
+</html>
