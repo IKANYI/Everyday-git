@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Everyday Git</title>
+  <link rel="shortcut icon" href="git-ico.jpg" rel="shortcut icon">
 </head>
 <body>
   <div>
@@ -89,8 +91,140 @@
     </p>
     <img src="git-add.png" alt="A sceenshort of add command">
     <p>
-      a A screenshots of the add command
+       A screenshots of the add command
+    </p>
+    <p>
+      The files that we staged are now tracked files and are included in our repository. 
+    </p>
+  </div>
+  <div>
+    <h3>
+      Commiting changes
+    </h3>
+    <p>
+    The files we have staged needs to have an explanation of what has happened. We add those  explanations using the commit command as follows: git commit -m "first files"
+    <img src="git-com.png" alt="first files to commit">
+    <p>
+      screenshot of commit command
+    </p>
+    </p>
+    <p>
+      To view the previous commits history, we run the git log command.
+      <img src="git-log.png" alt="log command history">
+    </p>
+  </div>
+  <div>
+    <h3>
+      Branches
+    </h3>
+    <p>
+      Branches are separate versions of the main  repository that we can manipulate without affecting the original repository. 
+      They enable us to collaborate with others in projects. They also allows us to work on separate work space.
+    </p>
+    <h3>
+      Creating a Branch
+    </h3>
+    <p>
+      To create a branch enter this command in cmd: "git branch [name of branch]"
+        <img src="git-bra.png" alt="Creating a Branch">
+      <p>
+        A screenshot of the branch command
+      </p>
+    </p>
+  </div>
+  <div>
+    <h3>
+      Viewing all branches
+    </h3>
+    <p>
+      To view all branches in a repository, simply run this command: git branch -a . The active branch will be highlighted in green and an asterisk.
+      <p>
+        <img src="git-sh.png" alt="screenshot image showing all branches" />
+      </p>
+      <p>
+        screenshot image showing all branches
+      </p>
     </p>
   </div>
 </body>
+<div>
+  <h3>
+    Switching active branch
+  </h3>
+  <p>
+    To swicth a branch we use these command: git checkout [branch name]
+    <img src="git-sw.png" alt="screenshot showing branch switch command" />
+  </p>
+  <p>
+    A screenshot showing how to switch a branch
+  </p>
+</div>
+<div>
+  <h3>
+    Merging a branch
+  </h3>
+  <p>
+    To merge branches locally, use git checkout to switch to the branch you want to merge into. Next, use git merge and specify the name of the other branch to bring into this branch.
+    The commands: <code>git checkout master</code> and <code>git merge blog</code
+  </p>
+  <img src="git-mer.png" alt="image of merging commands" />
+</div>
+<div>
+  <h3>
+    Deleting a branch
+  </h3>
+  <p>
+    To delete a branch we use the following command:<code>git branch -D [branch name]</code>
+  </p>
+  <img src="git-del.png" alt="image of deleting a branch"/>
+  <p>
+    screenshot of branch deleting command
+  </p>
+</div>
+<div>
+  <h3>
+    Conclusion
+  </h3>
+  <p>
+    That's a wrap for today, hope you found this blog useful. You can check out my other blogs about GitHub to continue learning.
+  </p>
+</div>
+<div>
+  <h5>
+    If you like content like this consider subscribing to my weekly newsletter.
+  </h5>
+  <form>
+    <div style="margin-bottom: 10px;">
+      <label>
+        First Name:
+      </label>
+      <input type="text" placeholder="Paul" required>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <label>
+        Last Name:
+      </label>
+      <input type="text" placeholder="Walker" required>
+    </div>
+    <div>
+      <label>
+        Email Address:
+      </label>
+      <input type="text" placeholder="walkerp@gmail.com" required>
+    </div> 
+    <div style="margin-top: 10px; margin-left: 74px;">
+      <button>Submit</button>
+    </div>
+  </form>
+</div>
+<div>
+  <footer id="footer">
+   <p>
+    Aurthor: Paul Karanja.
+   </p>
+    <p>
+      Paul is a software Engineering student at Muranga University Of Technology. He is passionate about emerging technologies such as deep learnig.
+    </p>
+  </footer>
+</div>
 </html>
